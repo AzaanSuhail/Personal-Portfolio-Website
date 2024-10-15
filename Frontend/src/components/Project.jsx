@@ -8,23 +8,35 @@ const Project = () => {
         Projects
       </h1>
 
-      <div className="main-div flex flex-wrap justify-around gap-[1px] relative right-8 sm:gap-3 ">
+      <div className="main-div flex flex-wrap justify-around gap-[1px] relative right-8 sm:gap-3 sm:w-full ">
         {/* Card 1 */}
         <div
-          className="card text-white p-2  rounded-lg "
+          className="card text-white p-2 rounded-lg"
           style={{ width: "220px", height: "350px", paddingBottom: "23rem" }}
         >
           <TaggedContentCard
             style={{ backgroundColor: "black", color: "white", height: "100%" }}
-            thumbnail="https://example.com/image1.jpg" // Replace with actual image URL
-            title={<span className="text-[#64fcd8]">Project Name 1</span>}
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dignissimos ea sed error distinctio labore nobis quam id vel repellendus fuga explicabo facilis nulla alias deserunt placeat."
+            title={<span className="text-[#64fcd8] font-bold">Chat Loop</span>}
+            description="Built a full-stack MERN messaging app with real-time Socket.io communication, online status, pop sound alerts, JWT authentication, bcrypt-secured passwords, React, Tailwind CSS, daisyUI, Zustand for state, Express/MongoDB for data handling, and efficient backend operations."
             tags={[
-              <button className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold">
-                <a href="https://github.com/project1">GitHub</a>
+              <button
+                className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold mb-0" // Removed margin-bottom
+                onClick={() =>
+                  window.open(
+                    "https://github.com/AzaanSuhail/Chat_Loop",
+                    "_blank"
+                  )
+                }
+              >
+                GitHub
               </button>,
-              <button className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold">
-                <a href="https://example.com/live1">LiveLink</a>
+              <button
+                className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold mb-0" // Removed margin-bottom
+                onClick={() =>
+                  window.open("https://loop-chat-azaan.onrender.com", "_blank")
+                }
+              >
+                LiveLink
               </button>
             ]}
           />
@@ -32,20 +44,35 @@ const Project = () => {
 
         {/* Card 2 */}
         <div
-          className="card text-white p-2  rounded-lg"
+          className="card text-white p-2 rounded-lg"
           style={{ width: "220px", height: "350px", paddingBottom: "23rem" }}
         >
           <TaggedContentCard
             style={{ backgroundColor: "black", color: "white", height: "100%" }}
-            thumbnail="https://example.com/image2.jpg" // Replace with actual image URL
-            title={<span className="text-[#64fcd9]">Project Name 2</span>}
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dignissimos ea sed error distinctio labore nobis quam id vel repellendus fuga explicabo facilis nulla alias deserunt placeat."
+            title={<span className="text-[#64fcd9] font-bold">ShieldOP</span>}
+            description="Developed a secure password manager using the MERN stack with CRUD functionality, securely storing encrypted passwords in MongoDB. Integrated Tailwind CSS, animated Lord Icons, uuid for unique IDs, and React Toast for real-time notifications and user-friendly interface"
             tags={[
-              <button className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold">
-                <a href="https://github.com/project2">GitHub</a>
+              <button
+                className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold mb-0" // Removed margin-bottom
+                onClick={() =>
+                  window.open(
+                    "https://github.com/AzaanSuhail/ShieldOP-My-Own-Password-Manager",
+                    "_blank"
+                  )
+                }
+              >
+                GitHub
               </button>,
-              <button className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold">
-                <a href="https://example.com/live2">LiveLink</a>
+              <button
+                className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold mb-0" // Removed margin-bottom
+                onClick={() =>
+                  window.open(
+                    "https://dochub.com/azaan-suhail/gzdnE7NwJxBva21KQyW3BJ/shieldop-png",
+                    "_blank"
+                  )
+                }
+              >
+                LiveUI
               </button>
             ]}
           />
@@ -53,20 +80,36 @@ const Project = () => {
 
         {/* Card 3 */}
         <div
-          className="card text-white p-2 rounded-lg "
+          className="card text-white p-2 rounded-lg"
           style={{ width: "220px", height: "350px", paddingBottom: "23rem" }}
         >
           <TaggedContentCard
             style={{ backgroundColor: "black", color: "white", height: "100%" }}
-            thumbnail="https://example.com/image3.jpg" // Replace with actual image URL
-            title={<span className="text-[#64fcd9]">Project Name 3</span>}
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dignissimos ea sed error distinctio labore nobis quam id vel repellendus fuga explicabo facilis nulla alias deserunt placeat."
+            title={
+              <span className="text-[#64fcd9] font-bold ">
+                AI Desktop Voice Assistant
+              </span>
+            }
+            description="AI Desktop Voice Assistant: Developed a voice-activated assistant that recognizes and executes commands, including opening websites (Google, Stack Overflow), retrieving Wikipedia summaries, announcing the current time, and launching local applications. "
             tags={[
-              <button className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold">
-                <a href="https://github.com/project3">GitHub</a>
+              <button
+                className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold mb-0" // Removed margin-bottom
+                onClick={() =>
+                  window.open(
+                    "https://github.com/AzaanSuhail/AI-Desktop-Voice-Assistant",
+                    "_blank"
+                  )
+                }
+              >
+                GitHub
               </button>,
-              <button className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold">
-                <a href="https://example.com/live3">LiveLink</a>
+              <button
+                className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold mb-0" // Removed margin-bottom
+                onClick={() =>
+                  window.open("https://example.com/live3", "_blank")
+                }
+              >
+                Live
               </button>
             ]}
           />
@@ -74,20 +117,39 @@ const Project = () => {
 
         {/* Card 4 */}
         <div
-          className="card text-white p-2 rounded-lg   "
+          className="card text-white p-2 rounded-lg"
           style={{ width: "220px", height: "350px", paddingBottom: "23rem" }}
         >
           <TaggedContentCard
             style={{ backgroundColor: "black", color: "white", height: "100%" }}
-            thumbnail="https://example.com/image4.jpg" // Replace with actual image URL
-            title={<span className="text-[#64fcd9]">Project Name 4</span>}
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dignissimos ea sed error distinctio labore nobis quam id vel repellendus fuga explicabo facilis nulla alias deserunt placeat."
+            title={
+              <span className="text-[#64fcd9] font-bold">
+                Real time Weather App
+              </span>
+            }
+            description="Developed a real-time weather application that provides users with instant weather updates, including current temperature, conditions (e.g., sunny, rainy), and humidity levels. The app fetches data from a reliable weather API, ensuring accurate and up-to-date information. "
             tags={[
-              <button className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold">
-                <a href="https://github.com/project4">GitHub</a>
+              <button
+                className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold mb-0" // Removed margin-bottom
+                onClick={() =>
+                  window.open(
+                    "https://github.com/AzaanSuhail/My-Weather-App",
+                    "_blank"
+                  )
+                }
+              >
+                GitHub
               </button>,
-              <button className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold">
-                <a href="https://example.com/live4">LiveLink</a>
+              <button
+                className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold mb-0" // Removed margin-bottom
+                onClick={() =>
+                  window.open(
+                    "https://github.com/AzaanSuhail/My-Weather-App",
+                    "_blank"
+                  )
+                }
+              >
+                LiveUI
               </button>
             ]}
           />

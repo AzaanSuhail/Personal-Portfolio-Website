@@ -100,9 +100,11 @@ const Home = () => {
         </div>
 
         <div className="Resume mt-4 flex justify-center lg:justify-start">
-          <button className="bg-[#64FCD9] font-bold px-8 py-2 lg:px-[2em] lg:py-[.4em] border rounded-md">
-            Resume
-          </button>
+          <a href="https://github.com/AzaanSuhail" target="_blank">
+            <button className="bg-[#64FCD9] font-bold px-8 py-2 lg:px-[2em] lg:py-[.4em] border rounded-md">
+              Resume
+            </button>
+          </a>
         </div>
       </div>
     </div>
