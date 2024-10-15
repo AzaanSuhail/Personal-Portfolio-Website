@@ -50,8 +50,4 @@ Follow the steps below to set up the project locally:
 - Implement dark mode for better accessibility.
 - Enhance SEO performance and site optimization for faster loading times.
 
-## License  
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact  
-Feel free to get in touch through the contact form on the website or connect via [LinkedIn](https://linkedin.com/in/your-linkedin).
