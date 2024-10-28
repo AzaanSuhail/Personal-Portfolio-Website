@@ -78,6 +78,44 @@ const Project = () => {
           />
         </div>
 
+        {/* //TOdo : third card */}
+        <div
+          className="card text-white p-2 rounded-lg"
+          style={{ width: "220px", height: "350px", paddingBottom: "23rem" }}
+        >
+          <TaggedContentCard
+            style={{ backgroundColor: "black", color: "white", height: "100%" }}
+            title={
+              <span className="text-[#64fcd9] font-bold">Commits Hub</span>
+            }
+            description="Commits Hub is a dynamic MERN app for exploring GitHub profiles and managing repositories. Users can search profiles, sort repositories by recency, stars, or forks, and like profiles, with secure OAuth access to top repositories in JavaScript, Python, and more languages"
+            tags={[
+              <button
+                className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold mb-0" // Removed margin-bottom
+                onClick={() =>
+                  window.open(
+                    "https://github.com/AzaanSuhail/Commits-Hub/tree/main",
+                    "_blank"
+                  )
+                }
+              >
+                GitHub
+              </button>,
+              <button
+                className="bg-[#64fcd9] text-black px-3 py-1 rounded-md hover:font-semibold mb-0" // Removed margin-bottom
+                onClick={() =>
+                  window.open(
+                    "https://commit-hub.onrender.com/",
+                    "_blank"
+                  )
+                }
+              >
+                LiveLink
+              </button>
+            ]}
+          />
+        </div>
+
         {/* Card 3 */}
         <div
           className="card text-white p-2 rounded-lg"
