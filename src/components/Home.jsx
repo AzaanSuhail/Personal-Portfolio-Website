@@ -101,7 +101,7 @@ const Home = () => {
 
         <div className="Resume mt-4 flex justify-center lg:justify-start">
           <a
-            href="https://drive.google.com/file/d/1k2gDdiirtereXS8YtYHD5tiIp43U7s8j/view?usp=sharing"
+            href="https://drive.google.com/file/d/1AE3-J7kCXDZNtnCaj5cLcoxefqnm0hrb/view?usp=sharing"
             target="_blank"
           >
             <button className="bg-[#64FCD9] font-bold px-8 py-2 lg:px-[2em] lg:py-[.4em] border rounded-md">
