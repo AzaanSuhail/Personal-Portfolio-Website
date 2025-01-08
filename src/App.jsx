@@ -7,6 +7,7 @@ import {
   Contact,
   Footer
 } from "./components/index";
+import { motion } from "motion/react";
 
 function App() {
   return (

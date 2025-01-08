@@ -68,7 +68,7 @@ const About = () => {
 
             const ref = useRef(null);
             const isInView = useInView(ref, {
-              triggerOnce: false, 
+              triggerOnce: true, 
             });
 
             return (
@@ -95,7 +95,7 @@ const About = () => {
           Coding Profiles
         </h1>
         <h1 className="px-[2.5rem] pt-2">
-          Solved <b>750+</b> DSA problems across all coding platforms.
+          Solved <b>800+</b> DSA problems across all coding platforms.
         </h1>
         <div className="button pl-[4rem] pt-4 ">
           <a
