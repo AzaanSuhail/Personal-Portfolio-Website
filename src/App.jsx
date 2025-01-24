@@ -23,9 +23,9 @@ function App() {
         {" "}
         <Project />
       </div>
-      <div id="experience">
+      {/* <div id="experience">
         <Experience />
-      </div>
+      </div> */}
       <div id="contact">
         <Contact />
       </div>

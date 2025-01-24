@@ -42,11 +42,13 @@ const Navbar = () => {
               Projects
             </button>
           </Link>
-          <Link to="experience" smooth={true} duration={500}>
+          
+          {/* <Link to="experience" smooth={true} duration={500}>
             <button className="btn btn-experience hover:bg-[#64FCD9] bg-white text-black font-normal hover:font-semibold px-2 py-0.5 border-black rounded-md text-xs">
               Experience
             </button>
-          </Link>
+          </Link> */}
+
           <Link to="contact" smooth={true} duration={500}>
             <button className="btn btn-contact hover:bg-[#64FCD9] bg-white text-black font-normal hover:font-semibold px-2 py-0.5 border-black rounded-md text-xs">
               Contact Me
@@ -71,11 +73,13 @@ const Navbar = () => {
             Projects
           </button>
         </Link>
-        <Link to="experience" smooth={true} duration={500}>
+
+        {/* <Link to="experience" smooth={true} duration={500}>
           <button className="btn btn-experience hover:bg-[#64FCD9] bg-white text-black font-normal hover:font-semibold px-4 py-2 border-black rounded-md">
             Experience
           </button>
-        </Link>
+        </Link> */}
+        
         <Link to="contact" smooth={true} duration={500}>
           <button className="btn btn-contact hover:bg-[#64FCD9] bg-white text-black font-normal hover:font-semibold px-4 py-2 border-black rounded-md">
             Contact Me
