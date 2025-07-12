@@ -1,4 +1,4 @@
-import React from "react";
+
 import { TaggedContentCard } from "react-ui-cards";
 
 const Project = () => {

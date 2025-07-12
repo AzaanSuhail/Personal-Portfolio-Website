@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { Icon } from "@iconify/react";
 import { motion, useInView } from "framer-motion";
+import ScrollFloat from "../../ReactBitsAnimations/ScrollFloat/ScrollFloat";
 
 const About = () => {
   const technologies = [
