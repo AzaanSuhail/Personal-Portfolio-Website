@@ -6,7 +6,10 @@ import {
   Experience,
   Contact,
   Footer,
+  Project_,
+  About_
 } from "./components/index";
+
 import { motion } from "motion/react";
 import SplashCursor from "../ReactBitsAnimations/SplashCursor/SplashCursor";
 import Aurora from "../ReactBitsAnimations/Aurora/Aurora";
@@ -14,10 +17,8 @@ import Aurora from "../ReactBitsAnimations/Aurora/Aurora";
 function App() {
   return (
     <>
-        
         <SplashCursor />
         
-      
         <Navbar />
           <Aurora
   colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}

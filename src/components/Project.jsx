@@ -3,8 +3,8 @@ import { TaggedContentCard } from "react-ui-cards";
 
 const Project = () => {
   return (
-    <>
-      <h1 className="text-3xl font-extrabold px-[1.4em] font-robotoCondensed md:relative md:top-2 lg:relative lg:top-2">
+    <div className="bg-[#090528] text-white"> 
+      <h1 className="text-3xl font-extrabold px-[1.4em] underline  font-robotoCondensed md:relative md:top-2 lg:relative lg:top-2 ">
         Projects
       </h1>
 
@@ -193,7 +193,7 @@ const Project = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
